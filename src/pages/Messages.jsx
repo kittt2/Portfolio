@@ -11,7 +11,7 @@ function Messages() {
     const navigate =useNavigate();
   async function getallresponse(){
     try{
-    const res = await axios.get(`${apiUrl}/api/v1/response/comment`)
+    const res = await axios.get(`${apiUrl}api/v1/response/comment`)
     setresponse(res.data.users);
     console.log(response)
     }
