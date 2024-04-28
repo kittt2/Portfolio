@@ -8,7 +8,7 @@ function About() {
             <div id='about-outer'>
 
                 <div id='about-div'>
-                    < motion.img src="./src/assets/photo.jpg" alt="no"   whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.4,delay:0.3}} />
+                    < motion.img src="/photo.jpg" alt="no"   whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.4,delay:0.3}} />
                 </div>
                 <div id='about-id'>
                     <div id='about-int'>
