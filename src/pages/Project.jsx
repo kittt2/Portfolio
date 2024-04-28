@@ -32,7 +32,7 @@ function Project() {
 
                 <motion.div id='project-box'  variants={icon(1)} initial="initial" animate="animate" >
                     <div id='project-img'>
-                        <img src="./src/assets/project3.png" alt="" />
+                        <img src="/project3.png" alt="" />
                     </div>
                     <div id='project-p'>
                         <p>This is  a fully functional ecommerce site with feature search,categories,admin panel,Crud operation on products,order status and admin panel</p>
@@ -54,7 +54,7 @@ function Project() {
                 </motion.div>
                 <motion.div id='project-box'  variants={icon(2)} initial="initial" animate="animate" >
                     <div id='project-img'>
-                        <img src="./src/assets/project2.png" alt="" />
+                        <img src="/project2.png" alt="" />
                     </div>
                     <div id='project-p'>
                         <p>This is  a  basic ecommerce site with feature products,cart system ,login,signin(without react).</p>
@@ -77,9 +77,9 @@ function Project() {
                 </motion.div>
                 <motion.div id='project-box'  variants={icon(1)} initial="initial" animate="animate" >
                     <div id='project-img'>
-                        <img src="./src/assets/project1.png" alt="" />
+                        <img src="/project1.png" alt="" />
                     </div>
-                    <div>
+                    <div id='project-p'>
                         <p>This is  a react based portfolio project with dark and light theme and form coonect with database(responsive for mobile and laptop only).</p>
                     </div>
                     <div>
