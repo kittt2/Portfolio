@@ -18,7 +18,7 @@ function Contact() {
     e.preventDefault();
     try {
       toast.success("Submitting...");
-      const send = await axios.post(`${apiUrl}/api/v1/response/form`, {
+      const send = await axios.post(`${apiUrl}api/v1/response/form`, {
         name,
         email,
         text
