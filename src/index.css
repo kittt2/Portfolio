@@ -907,7 +907,7 @@ text-align: center;
       overflow: hidden;
     }
   #navbar{
-    width: 60%;
+    width: 50%;
     height: 4px;
     margin-left: 100px;
   }
@@ -979,7 +979,7 @@ text-align: center;
     
   }
   #about-outer{
-  margin-top: 0px;
+  margin-top: 100px;
   padding: 50px;
   width: 86%;
   display: flex;
@@ -989,7 +989,7 @@ text-align: center;
   }
   
   #abouth2{
-    margin-top: 59vh;
+    margin-top: 80vh;
     margin-left: 60px;
    
   }
