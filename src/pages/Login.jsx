@@ -17,17 +17,17 @@ function Login() {
     async function login(e) {
         e.preventDefault();
         try {
-            const res = await axios.post(`${apiUrl}api/v1/response/admin`, {
-                email,
-                password,
-            });
-            if (res && res.data.success) {
-                localStorage.setItem('auth', JSON.stringify(res.data))
-                toast.success(res.data && res.data.message);
+           
+            if(email=="nitinadmin@gmail.com" && password=="admin3n")
+                {
+                toast.success("login complete");
                 navigate("/mess")
             } else {
-                toast.error(res.data.message);
+                toast.error("email or password not correct");
+
+              
             }
+        
         }
 
         catch (error) {
