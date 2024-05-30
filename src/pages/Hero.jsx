@@ -27,7 +27,7 @@ function Hero() {
                     <motion.h2 variants={container(1.5)} initial="hidden" whileInView="visible">The adventure begins here!"</motion.h2>
                 </div>
                 <div className='hero-img'>
-                    <motion.img src='/g.jpg' alt="g"  initial={{y:-150 ,opacity:0}} whileInView={{ y: 0 ,opacity:1 }}   transition={{duration:0.6,delay:0.5}}/>
+                    <motion.img src='/g.jpg' alt="g"  initial={{x:200 ,opacity:0}} whileInView={{ x: 0 ,opacity:1 }}   transition={{duration:0.6,delay:0.5}}/>
                 </div>
             </div>
         </>

@@ -53,7 +53,7 @@ function Contact() {
         <motion.h3 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.4,delay:0.3}} >GET In Touch</motion.h3>
         <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.4,delay:0.3}} >Contact Me</motion.h2>
         <div id='contact'>
-          <div>
+          <div id='contactdiv'>
             <motion.div id='contact-box' whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.4,delay:0.3}} >
               <div >
                 <SiMinutemailer id='contactboxicon'></SiMinutemailer>
