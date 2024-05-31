@@ -7,12 +7,11 @@
 
 [data-theme="light"]{
   --background-color:rgb(240, 238, 238);
-  --box-background:rgb(233, 231, 231);
+  --box-background:rgb(223, 223, 223);
   --bordercolor:2px solid black;
   --colortext: #000;
   --colorborder: 2px solid rgb(214, 209, 209);
-  --colorpara:rgb(113, 109, 109)
-  ;
+  --colorpara:rgb(113, 109, 109);
   --buttonborder:2px solid black;
   
 }
@@ -20,10 +19,10 @@
 [data-theme="dark"]{
   --background-color:rgb(46, 45, 45);
   --box-background:rgb(51, 50, 50);
-  --colortext: white;
+  --colortext: rgb(249, 240, 240);
   --colorp:rgb(238, 237, 237);
-  --bordercolor: 2px solid rgb(80, 77, 77);
-  --colorpara:grey;
+  --bordercolor: 2px solid rgb(100, 97, 97);
+  --colorpara:rgb(201, 199, 199);
   --buttonborder:2px solid rgb(122, 120, 120);
 }
 
@@ -778,7 +777,7 @@ text-align: center;
   @media (max-width: 827px) {
     
     #navbar{
-     width: 55%;
+     width: 65%;
     }
    
     
@@ -900,7 +899,7 @@ text-align: center;
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
    
     body{
-      margin-left: -60px;
+      margin-left: calc(-14%);
 
     }
     #root{
@@ -967,7 +966,7 @@ text-align: center;
   .hero-img{
     width: 100%;
     overflow: hidden;
-  
+    height: 400px;
     border-radius: 20px;
    margin-left: 40px;
    
@@ -979,13 +978,15 @@ text-align: center;
 
   .test1{
     width: 100%;
+    margin-top: calc(60%);
     
   }
   #about-outer{
   margin: 0px;
   margin-left: calc(8% );
+  flex-wrap: wrap;
   padding: 0px;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   height:900px;
@@ -993,7 +994,7 @@ text-align: center;
   }
   
   #abouth2{
-   margin-top: calc(50%);
+ 
     margin-left: 60px;
    
   }
@@ -1001,12 +1002,13 @@ text-align: center;
   #about-div img{
     width: 100%;
     object-fit: cover;
+    
    }
   #about-div{
-   height: 40vh;
+   
    display: flex;
    flex-direction: column;
-   width: 88%;
+   width: 92%;
    border-radius: 20px;
    padding: 0%;
    margin-left: 90px;
@@ -1041,6 +1043,12 @@ text-align: center;
   text-align: justify;
   
    }
+
+   
+   #about-id{
+  margin-top: calc(10%);
+    
+     }
 
    #about-outer h2{
     margin-top: 14px;
@@ -1151,6 +1159,7 @@ text-align: center;
    
    #contact{
     width: 100%;
+    margin-left: calc(-10%);
   
    }
 
@@ -1196,8 +1205,12 @@ text-align: center;
  width: 100%;
 padding-left: 109px;
 
-
 }
+#response{
+   width: 40%;
+    
+}
+
    #form {
    
     width:100%;
@@ -1206,7 +1219,8 @@ padding-left: 109px;
 
   #form button{
    
-    width:40%;
+    width:90%;
+    font-weight: 900;
     
   }
   #footer{
