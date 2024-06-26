@@ -52,6 +52,7 @@ body {
   border-radius: 60px;
   height: 10px;
   width: 35vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-left: 30%;
   background-color: var(--box-background);
 }
