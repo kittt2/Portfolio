@@ -17,7 +17,20 @@ function Contact() {
   async function submit(e) {
     e.preventDefault();
     try {
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        toast.error("Please enter a valid email address.");
+        return;
+      }
+      if (!name || !email || !text) {
+        
+        toast.error("Please fill in all details.");
+        return;
+        
+      }
+      else{
       toast.success("Submitting...");
+      toast.custom(<div className='note'>"hi it takes some min onnly on first time because i am using the free service of render .  thanks for understanding"  </div>  )
       const send = await axios.post(`${apiUrl}api/v1/response/form`, {
         name,
         email,
@@ -26,6 +39,7 @@ function Contact() {
       localStorage.setItem('send', JSON.stringify(send.data));
       toast.success("Submitted successfully!");
       setCommentUpdated(true);
+    }
      
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -35,7 +49,7 @@ function Contact() {
     setname("");
     setemail("");
     settext("");
-    console.log(comment)
+    
   }
  
   useEffect(() => {
@@ -73,7 +87,7 @@ function Contact() {
           <div id='contactf'>
             <motion.form onSubmit={submit} id='form' whileInView={{opacity:1,scale:1}} initial={{opacity:0,scale:0.5}} transition={{duration:0.4,delay:0.3}}>
               <input type="text" placeholder='name' onChange={(e) => setname(e.target.value)} value={name} />
-              <input type="text" placeholder='email' onChange={(e) => setemail(e.target.value)} value={email} />
+              <input type="text" placeholder='email' onChange={(e) => setemail(e.target.value)} value={email}  required  />
               <input type="text" placeholder='your query' onChange={(e) => settext(e.target.value)} value={text} />
               <button type='submit'>Submit</button>
             </motion.form>
