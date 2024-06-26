@@ -11,6 +11,7 @@
 .note{
   padding: 20px;
   border-radius: 20px;
+  font-weight: bold;
   background-color: white;
   color: black;
 }
@@ -35,7 +36,6 @@
   --colorpara:rgb(201, 199, 199);
   --buttonborder:2px solid rgb(122, 120, 120);
 }
-
 
 #hr-tag{
   margin-left: 650px;
@@ -154,8 +154,8 @@ body {
   margin-top: 30px;
   color: rgb(148, 147, 147);
   text-shadow:
-    5px 1px 3px rgb(19, 19, 19),
-    3px 1px 1px rgb(36, 32, 32);
+    3px 1px 2px rgb(83, 83, 83),
+    1px 1px 1px rgb(168, 168, 168);
 }
 
 .hero-img img{
@@ -1165,7 +1165,7 @@ text-align: center;
   
   #exp{
     margin: 50px;
-    width: 100%;
+    width: 100vw;
   
   }
   
@@ -1173,12 +1173,12 @@ text-align: center;
    margin: calc(8vw);
   }
   #exp h5{
-    margin-left: calc(-8% );
+    margin-left: calc(-8vw );
    }
   #exp p{
    font-size: 20px;
-   margin-left: calc(-30vw );
-   text-align: left;
+   margin-left: calc(-10vw);
+  
   }
   
   

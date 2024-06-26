@@ -30,7 +30,7 @@ function Contact() {
       }
       else{
       toast.success("Submitting...");
-      toast.custom(<div className='note'>"hi it takes some min onnly on first time because i am using the free service of render .  thanks for understanding"  </div>  )
+      toast.custom(<div className='note'>"hi it takes some min only on first time because i am using the free service of render .  thanks for understanding"  </div>  )
       const send = await axios.post(`${apiUrl}api/v1/response/form`, {
         name,
         email,
