@@ -26,7 +26,7 @@ function Project() {
         <>
             <hr id='hr-tag' />
             <div id='projecth2'>
-                <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:100}} transition={{duration:0.4,delay:0.3}} >Projects</motion.h2>
+                <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:100}} transition={{duration:0.4,delay:0.3}} ><span id='nitin'>Projects</span></motion.h2>
             </div>
             <motion.div id='project-div' whileInView={{opacity:1,y:0}} initial={{opacity:0,y:100}} transition={{duration:0.4,delay:0.3}} >
 
