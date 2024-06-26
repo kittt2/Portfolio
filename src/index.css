@@ -1,8 +1,11 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: 0;
-  
+  box-sizing: 0;  
+}
+
+#root{
+  overflow: hidden;
 }
 
 [data-theme="light"]{
@@ -38,6 +41,7 @@ body {
  
   background: radial-gradient(100% 50% at 50% 0%, rgba(64, 67, 68, 0.13) 0, rgba(233, 237, 240, 0) 50%, rgba(180, 120, 166, 0) 100%);
   background-color:var(--background-color); /* Fallback color */
+  
 }
 
 #navbar{
@@ -101,6 +105,20 @@ body {
 
 }
 
+#nitinportfolio{
+  font-size: 24px;
+  color:var(--colortext);
+  text-shadow:
+    1px 1px 3px rgb(6, 5, 5),
+    1px 1px 1px rgb(101, 99, 99);
+}
+#nitin{
+  font-size: 44px;
+  color:var(--colortext);
+  text-shadow:
+    4px 2px 4px rgb(6, 5, 5),
+    2px 1px 1px rgb(101, 99, 99);
+}
 .hero-heading{
   align-items: center;
   text-align: justify;
@@ -114,6 +132,10 @@ body {
   margin-top: 80px;
   margin-bottom: 50px;
   color:var(--colortext);
+  text-transform: capitalize;
+  text-shadow:
+    4px 2px 2px rgb(119, 117, 117),
+    3px 1px 2px rgb(101, 99, 99);
 }
 
 .hero-heading p{
@@ -125,7 +147,10 @@ body {
 .hero-heading h2{
   font-size: 30px;
   margin-top: 30px;
-  color: grey;
+  color: rgb(148, 147, 147);
+  text-shadow:
+    5px 1px 3px rgb(19, 19, 19),
+    3px 1px 1px rgb(36, 32, 32);
 }
 
 .hero-img img{
@@ -133,12 +158,12 @@ body {
   width: 100%;
   border-radius: 30px;
   object-fit: cover;
-  
+
 }
 
 .hero-img{
   width: 40%;
- 
+ box-sizing: border-box;
   height: 500px;
   
   
@@ -243,6 +268,7 @@ flex-direction: row;
 
 #skill-div{
   margin: 40px;
+  
 }
   
 #skill-div h3{
@@ -250,6 +276,7 @@ flex-direction: row;
   font-size: 30px;
   margin-left: 43%;
   color: var(--colortext);
+  overflow: hidden;
   
 }
 #skill-tg{
@@ -257,6 +284,7 @@ flex-direction: row;
   font-size: 80px;
   gap: 70px;
   padding-left: 15%;
+
   
 }
 #expressicon{
@@ -321,6 +349,7 @@ color: var(--colortext);
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+ 
 }
 
 #project-box:hover{
@@ -348,6 +377,7 @@ color: var(--colortext);
 text-align: center;
   font-size: 40px;
   color: var(--colortext);
+  overflow: hidden;
 }
 #project-img{
   height: 200px;

@@ -15,12 +15,12 @@ function Hero() {
         <>
             <div id='hero' className='absolute'>
                 <div className='hero-heading'>
-                    <motion.h1 variants={container(0.4)} initial="hidden" whileInView="visible">"Hello World!</motion.h1>
-                    <motion.p variants={container(0.7)} initial="hidden" whileInView="visible">I'm Nitin, an aspiring web developer with a passion for crafting digital experiences that captivate and inspire. As an emerging force in the world of coding, I'm fueled by curiosity and a relentless drive to learn and create.
+                    <motion.h1 variants={container(0.4)} initial="hidden" whileInView="visible">Hi! I AM NITIN</motion.h1>
+                    <motion.p variants={container(0.7)} initial="hidden" whileInView="visible">I'm <span id='nitin'>Nitin</span>, an aspiring <span id='nitin'>web developer</span> with a passion for crafting digital experiences that captivate and inspire. As an emerging force in the world of coding, I'm fueled by curiosity and a relentless drive to learn and create.
 
-                        From experimenting with HTML and CSS to diving into the depths of JavaScript and React, every line of code is a step closer to turning my dreams into reality.
+                       From experimenting with <span id='nitinportfolio'> HTML</span> and <span id='nitinportfolio'>CSS</span> to diving into the depths of <span id='nitinportfolio'>JavaScript</span> and <span id='nitinportfolio'>React</span> , every line of code is a step closer to turning my dreams into reality.
                     </motion.p>
-                    <motion.p variants={container(1)} initial="hidden" whileInView="visible"> Through my portfolio, I invite you to explore my projects, witness my growth, and join me on this exhilarating journey of discovery.
+                    <motion.p variants={container(1)} initial="hidden" whileInView="visible">  Through my  <span id='nitinportfolio'>portfolio</span>, I invite you to explore my <span id='nitin'>projects</span> , witness my growth, and join me on this exhilarating journey of discovery.
 
                         Together, let's embark on a quest to push boundaries, challenge norms, and build a web that's as beautiful as it is functional.
                     </motion.p>
