@@ -1169,7 +1169,7 @@ height: 100vh;
   }
   
   .hero-heading p{
-    font-size: 11px;
+    font-size: 14px;
     word-spacing: 0%;
     text-wrap: wrap;
   }
@@ -1305,7 +1305,7 @@ height: 100vh;
   }
   #skill-tg div{
     margin-left: 0px;
-    font-size:70px;
+    font-size:50px;
    
   }
 
@@ -1371,7 +1371,8 @@ height: 100vh;
  
   #projecth2{
   margin-left:23%;
-  margin-top: 30%;
+  margin-top: 10%;
+
   }
 
 
