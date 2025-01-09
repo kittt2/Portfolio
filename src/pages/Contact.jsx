@@ -59,9 +59,9 @@ function Contact() {
     if (data && data) {
       setcomment(data);
     }
-    setname(data.name);
-    setemail(data.email);
-    settext(data.text);
+    setname(data?.name);
+    setemail(data?.email);
+    settext(data?.text);
     setCommentUpdated(false);
   }, [commentUpdated]);
 
