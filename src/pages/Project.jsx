@@ -93,7 +93,7 @@ function Project() {
                             <div id='mongoicon-p'><SiMongodb /></div>
                         </div>
                         <div>
-                            <button id='project-btn'><a href="https://portfolio-kappa-eight-64.vercel.app/">live demo</a></button>
+                            <button id='project-btn'><a href="https://nitinsaini.vercel.app/">live demo</a></button>
                         </div>
                     </div>
                 </motion.div>
