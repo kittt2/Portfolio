@@ -41,7 +41,7 @@ function Contact() {
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      toast.error("Failed to submit form. Please try again later.");
+     
     }
 
     setname("");
@@ -59,7 +59,7 @@ function Contact() {
     setemail(data?.email);
     settext(data?.text);
     setCommentUpdated(false);
-  }, [commentUpdated,text]);
+  }, [comment]);
 
   return (
     <div id="test2">
