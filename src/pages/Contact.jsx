@@ -29,12 +29,8 @@ function Contact() {
         toast.success("Submitting...");
         toast.success("Submitted successfully!");
         localStorage.setItem("send", JSON.stringify({ name, email, text }));
-        toast.custom(
-          <div className="note">
-            "hi it takes some min only on first time because i am using the free
-            service of render . thanks for understanding"{" "}
-          </div>
-        );
+     
+      
         const send = await axios.post(`${apiUrl}api/v1/response/form`, {
           name,
           email,
@@ -63,7 +59,7 @@ function Contact() {
     setemail(data?.email);
     settext(data?.text);
     setCommentUpdated(false);
-  }, [commentUpdated,comment]);
+  }, [commentUpdated,text]);
 
   return (
     <div id="test2">
