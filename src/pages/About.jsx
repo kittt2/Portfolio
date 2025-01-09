@@ -8,12 +8,12 @@ function About() {
                 <div id='about-outer'>
 
                     <div id='about-div'>
-                        < motion.img src="/p1.jpg" alt="no" whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 0.4, delay: 0.3 }} />
+                        < motion.img src="/g.jpg" alt="no" whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 0.4, delay: 0.3 }} />
                     </div>
                     <div id='about-id'>
                         <div id='about-int'>
                             <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 0.3, delay: 0.6 }} id='about-box'>
-                                <h3>Interst</h3>
+                                <h3>Interest</h3>
                                 <p>Web Development</p>
                             </motion.div>
                             <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 0.3, delay: 0.6 }} id='about-box'>
