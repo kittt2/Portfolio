@@ -63,7 +63,7 @@ function Contact() {
     setemail(data?.email);
     settext(data?.text);
     setCommentUpdated(false);
-  }, [commentUpdated]);
+  }, [commentUpdated,comment]);
 
   return (
     <div id="test2">
