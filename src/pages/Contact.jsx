@@ -11,6 +11,7 @@ function Contact() {
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [text, settext] = useState("");
+  const[resfresh,setrefresh]=useState(true)
   const [isOpen, setIsOpen] = useState(false);
   const [comment, setcomment] = useState([]);
   const [commentUpdated, setCommentUpdated] = useState(false);
@@ -55,11 +56,9 @@ function Contact() {
     if (data && data) {
       setcomment(data);
     }
-    setname(data?.name);
-    setemail(data?.email);
-    settext(data?.text);
+   
     setCommentUpdated(false);
-  }, [comment]);
+  }, [commentUpdated]);
 
   return (
     <div id="test2">
